@@ -1,13 +1,13 @@
 # cc-tictactoe
 
 Challenge Summary
-Find value of a specific index of the linked list
+Write a function that can record who wins in tic tac toe. 
 
 Challenge Description
-find the value of the last node in the linked list. Based on that value, find the value of the node that is the distance away from the last node based on the value of the last node
+Compare values of 2d arrays, finding out if the win conditions for the common rules of tictactoe are met by either X or O, or if it was a draw.
 
 Approach & Efficiency
-count once, loop through, and then find the value in a second loop once the value of the end of the array was found.
+Initial whiteboard approach was terrible. After some direction and a ton of research to just apply ideas to the problem, I think I got it pretty close. It is a beast and I am sure there is a better way.
 
 Solution
-I think I got it, but I am having a weird linter error that I can't catch. All other comparable code seems to syntaktically correct, but it wont run to test it. Better eyes appreciated.
+At this skill level, I decided to go the compare row at column values, and column at row values for possible 3 in a row matches. Pretty sure it works like intended, just looks bulky to me.
